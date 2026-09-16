@@ -1,0 +1,478 @@
+Design and build a single-page professional portfolio website for Riya Sonaniya, a Computer Science Engineering student at Medi-Caps University.
+
+The website should feel bleak, niche, restrained, modern, and intentionally designed. Avoid the generic “AI-generated portfolio” look. No loud gradients, floating blobs, excessive glow, oversized typography, random glassmorphism, stock startup illustrations, or meaningless decorative elements.
+
+Design Direction
+
+Use Neumorphism as the primary visual language, but keep it subtle and mature.
+
+- Soft raised and inset surfaces.
+- Low-contrast shadows.
+- Smooth neutral colors.
+- Slightly desaturated palette.
+- Refined depth rather than exaggerated soft-UI effects.
+- Large amounts of breathing room.
+- Strong typography hierarchy.
+- Minimal borders.
+- Avoid pure black or pure white where possible.
+- The UI should feel tactile without becoming playful.
+
+Suggested palette direction:
+
+- Background: warm off-white, pale stone, muted ash, or cool grey.
+- Primary text: deep graphite.
+- Secondary text: muted grey.
+- Accent: one restrained muted color such as sage, faded blue-grey, clay, dusty lavender, or desaturated teal.
+- Shadows should use both slightly darker and lighter versions of the background to create neumorphic depth.
+
+Use one consistent accent color throughout the entire site.
+
+Typography & Font Pairing
+
+Use the Font Pairing tool/plugin to establish the typography system instead of selecting fonts arbitrarily.
+
+Required secondary/body font:
+
+Plus Jakarta Sans
+
+Use Plus Jakarta Sans for:
+
+- body copy,
+- project descriptions,
+- navigation,
+- buttons,
+- metadata,
+- labels,
+- contact information,
+- smaller UI text.
+
+For the primary/display typeface, use:
+
+Glook
+
+Use it for:
+
+- hero name,
+- major section headings,
+- project titles,
+- large editorial text,
+- selective numerical or structural elements.
+
+Use the Font Pairing tool to validate and refine this combination, including:
+
+- weights,
+- optical hierarchy,
+- letter spacing,
+- line height,
+- display/body proportions,
+- mobile scaling.
+
+The typography should feel slightly editorial and technical without becoming futuristic.
+
+Avoid:
+
+- Inter as the main typeface,
+- generic geometric startup typography,
+- excessive monospace,
+- extremely wide display fonts,
+- novelty fonts.
+
+Monospace may be introduced only for tiny technical metadata where it genuinely improves the design.
+
+Page Structure
+
+The entire website should exist as a single scrolling page:
+
+1. Hero
+2. Work
+3. About
+4. Placeholder Section 01
+5. Placeholder Section 02
+6. Contact / Footer
+
+Navigation should smoothly scroll between sections.
+
+---
+
+Hero Section
+
+Create a calm, confident opening rather than a huge marketing-style landing page.
+
+Content:
+
+Riya Sonaniya
+
+Computer Science Engineering
+Medi-Caps University
+
+Add a short positioning statement such as:
+
+“Building thoughtful software and learning how systems behave beneath the interface.”
+
+Do not use generic phrases such as:
+
+- Passionate developer
+- Turning ideas into reality
+- Crafting digital experiences
+- Building the future
+- Code. Create. Innovate.
+- Full-stack wizard
+
+Include a restrained CTA:
+
+View Work ↓
+
+Optional secondary action:
+
+Contact
+
+The hero should contain one carefully designed neumorphic visual element, such as:
+
+- abstract system diagram,
+- geometric module,
+- softly embossed grid,
+- minimal code-inspired structure,
+- modular interface object.
+
+Do not use a character illustration or generic laptop mockup.
+
+---
+
+Navigation
+
+Desktop:
+
+Riya Sonaniya
+Work
+About
+Contact
+
+Keep navigation minimal and optionally sticky.
+
+Mobile:
+
+Use a compact menu or neatly restructured navigation.
+
+Avoid flashy hamburger animations.
+
+---
+
+Work Section
+
+Section heading:
+
+Selected Work
+
+Present projects using large neumorphic project modules rather than generic cards.
+
+Each project should contain:
+
+- Project title
+- One-line description
+- Technology stack
+- Project type
+- Year
+- Optional GitHub link
+- Optional Live Project link
+
+Example placeholder:
+
+Project 01
+
+Short description of the project and the problem it solves.
+
+Tech
+React / JavaScript / Node.js
+
+Type
+Academic / Personal
+
+Year
+2026
+
+Use an editorial project layout.
+
+Slightly vary alignment, spacing, or proportions between projects so the section does not resemble a generated card grid.
+
+Provide room for 3–5 projects.
+
+Interactions:
+
+- slight elevation,
+- shadow interpolation,
+- restrained text movement,
+- gentle visual reveal,
+- no dramatic scaling.
+
+---
+
+About Section
+
+Heading:
+
+About
+
+Introduce Riya directly.
+
+Example:
+
+“I’m Riya Sonaniya, a Computer Science Engineering student at Medi-Caps University. I’m currently exploring software development, problem solving, and the systems behind modern applications.”
+
+Follow with structured information.
+
+University
+Medi-Caps University
+
+Program
+Computer Science Engineering
+
+Focus
+Software Development / Computer Science / Problem Solving
+
+Location
+India
+
+Add a compact Skills / Tools area.
+
+Placeholder skills:
+
+Java
+Python
+JavaScript
+React
+SQL
+Git
+Data Structures
+Algorithms
+
+Do not use animated percentage bars or skill ratings.
+
+---
+
+Placeholder Section 01
+
+Title:
+
+Notes / Currently Exploring
+
+Designed for:
+
+- technologies being learned,
+- technical notes,
+- experiments,
+- certifications,
+- coursework,
+- research interests.
+
+Create two placeholder entries:
+
+01 — Systems
+
+Placeholder content for an active technical interest.
+
+02 — Experiments
+
+Placeholder content for independent technical exploration.
+
+---
+
+Placeholder Section 02
+
+Title:
+
+Beyond Coursework
+
+Future content may include:
+
+- hackathons,
+- extracurricular projects,
+- communities,
+- volunteering,
+- competitions,
+- achievements.
+
+Add two understated placeholder items.
+
+Do not make this section visually louder than the work section.
+
+---
+
+Contact Section
+
+Heading:
+
+Contact
+
+Supporting copy:
+
+“Open to internships, collaborations, and interesting conversations around software.”
+
+Include:
+
+Email
+LinkedIn
+GitHub
+
+Use placeholders when real links are unavailable.
+
+email@example.com
+linkedin.com/in/placeholder
+github.com/placeholder
+
+Keep interactions restrained through small movement or neumorphic inset/elevation changes.
+
+Do not use “Let’s build something amazing together.”
+
+---
+
+Footer
+
+Keep it compact.
+
+Riya Sonaniya
+Computer Science Engineering — Medi-Caps University
+
+GitHub
+LinkedIn
+Email
+
+© 2026 Riya Sonaniya
+
+No unnecessary footer columns.
+
+---
+
+Neumorphic Component System
+
+Create reusable styles for:
+
+- raised panels,
+- inset surfaces,
+- buttons,
+- project modules,
+- navigation,
+- social links,
+- information blocks.
+
+Raised components should use:
+
+background matching the page surface
+
+- dark soft shadow
+- light opposing highlight
+
+Inset components should reverse the depth treatment.
+
+Keep corner radii moderate.
+
+Do not turn every object into a pill.
+
+---
+
+Animation System
+
+Animations should feel slow, deliberate, and polished.
+
+Use:
+
+- 250–500ms transitions,
+- soft ease-out curves,
+- small vertical displacement,
+- opacity fades,
+- shadow interpolation,
+- masked content reveals.
+
+Section entrance:
+
+opacity: 0 → 1
+translateY: 12–24px → 0
+
+Do not animate every word.
+
+Avoid:
+
+- bouncing,
+- spinning,
+- parallax overload,
+- magnetic cursors,
+- 3D card rotation,
+- mouse-following effects.
+
+Respect "prefers-reduced-motion".
+
+---
+
+Responsive Behaviour
+
+The website must adapt properly across:
+
+- desktop,
+- laptop,
+- tablet,
+- mobile.
+
+Desktop should use substantial negative space.
+
+On mobile:
+
+- collapse columns intelligently,
+- reduce shadow intensity slightly,
+- simplify decorative structures,
+- preserve hierarchy,
+- retain comfortable spacing,
+- keep touch targets accessible,
+- prevent horizontal overflow.
+
+Typography should use fluid sizing with "clamp()" or equivalent responsive rules.
+
+---
+
+Visual Personality
+
+The result should feel:
+
+- human-directed,
+- precise,
+- quiet,
+- slightly experimental,
+- academic but contemporary,
+- technical without looking like a developer template,
+- professional enough for internship and professional applications.
+
+The atmosphere should be bleak without being depressing.
+
+Minimal without being empty.
+
+Neumorphic without becoming soft, childish, or retro.
+
+Every visual element should justify its existence.
+
+Strictly Avoid
+
+Do not use:
+
+- gradients,
+- neon,
+- glassmorphism,
+- decorative blobs,
+- cartoon illustrations,
+- floating technology logos,
+- giant profile portraits,
+- circular skill percentages,
+- animated counters,
+- fake testimonials,
+- fake company logos,
+- “Available for work” green dots,
+- excessive rounded cards,
+- glowing buttons,
+- dashboard-style filler,
+- meaningless 3D objects,
+- typewriter hero text,
+- fake terminal windows,
+- cliché developer quotes,
+- generic AI-generated copy,
+- arbitrary font combinations.
+
+Use Font Pairing deliberately, with Glook as the primary display face and Plus Jakarta Sans as the secondary/body face.
+
+The finished website should look like it was art-directed by a designer, not assembled from common portfolio patterns.

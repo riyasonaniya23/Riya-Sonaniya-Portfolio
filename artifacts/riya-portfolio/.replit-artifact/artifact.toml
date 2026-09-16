@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Riya Sonaniya Portfolio"
+description = "A single-page professional portfolio for Riya Sonaniya, a Computer Science Engineering student at Medi-Caps University, presenting selected work, current interests, background, and contact details."
+version = "1.0.0"
+id = "artifacts/riya-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18765
+
+[services.development]
+run = "pnpm --filter @workspace/riya-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/riya-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/riya-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18765"
+BASE_PATH = "/"
