@@ -12,10 +12,10 @@ paths = [ "/" ]
 localPort = 18765
 
 [services.development]
-run = "pnpm --filter @workspace/riya-portfolio run dev"
+run = "npm run dev --workspace=@workspace/riya-portfolio"
 
 [services.production]
-build = [ "pnpm", "--filter", "@workspace/riya-portfolio", "run", "build" ]
+build = [ "npm", "run", "build", "--workspace=@workspace/riya-portfolio" ]
 serve = "static"
 publicDir = "artifacts/riya-portfolio/dist/public"
 
